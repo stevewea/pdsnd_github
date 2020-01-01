@@ -2,7 +2,7 @@
 Project created from clone on 1/1/2020
 
 ### Project Title
-Replace the Project Title
+My Udacity source control project
 
 ### Description
 Describe what your project is about and what it does
