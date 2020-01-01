@@ -8,7 +8,7 @@ CITYDATA = { 'chicago': 'chicago.csv',
               'washington': 'washington.csv' }
 
 # establish valid input values
-CITY_LIST = CITYDATA.keys()
+CITYLIST = CITYDATA.keys()
 MONTH_LIST = ['january','february','march','april','may','june','july','august','september','october','november','december','all']
 DAY_LIST = ['sunday','monday','tuesday','wednesday','thursday','friday','saturday','all']
 
@@ -32,7 +32,7 @@ def get_filters():
         loop = 0    
         while loop == 0:
             city = input("Enter the city (chicago, new york city, washington): ").lower()
-            if city in CITY_LIST:
+            if city in CITYLIST:
                 loop = 1
     
         # get user input for month (all, january, february, ... , june)
