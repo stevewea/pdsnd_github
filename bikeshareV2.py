@@ -3,12 +3,12 @@ import pandas as pd
 import numpy as np
 from decimal import Decimal
 
-CITY_DATA = { 'chicago': 'chicago.csv',
+CITYDATA = { 'chicago': 'chicago.csv',
               'new york city': 'new_york_city.csv',
               'washington': 'washington.csv' }
 
 # establish valid input values
-CITY_LIST = CITY_DATA.keys()
+CITY_LIST = CITYDATA.keys()
 MONTH_LIST = ['january','february','march','april','may','june','july','august','september','october','november','december','all']
 DAY_LIST = ['sunday','monday','tuesday','wednesday','thursday','friday','saturday','all']
 
@@ -82,7 +82,7 @@ def load_data(city, month, day):
     day = day.capitalize()
     month = month.capitalize()
     
-    df = pd.read_csv(CITY_DATA[city])
+    df = pd.read_csv(CITYDATA[city])
     
     #show data for debug purposes:
     if debug == 1:
