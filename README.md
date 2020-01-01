@@ -5,7 +5,7 @@ Project created from clone on 1/1/2020
 My Udacity source control project
 
 ### Description
-Describe what your project is about and what it does
+This project is to show comprehension of Git fundamentals
 
 ### Files used
 Include the files used
